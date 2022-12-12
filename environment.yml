@@ -1,0 +1,13 @@
+name: gnn
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - pip:
+    - h5py==3.4.0
+    - matplotlib==3.4.2
+    - numpy==1.20.3
+    - scipy==1.7.1
+    - torch==1.9.0
